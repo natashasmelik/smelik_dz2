@@ -1,0 +1,76 @@
+body
+{
+  background-color: white;
+  text-align: center;
+}
+
+div
+{
+  display: flex;
+  justify-content: center;
+}
+
+.fld
+{
+  padding: 0 0 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+canvas
+{
+  display: block;
+  border: 5px solid pink;
+  color: pink;
+  margin: 25px 0 10px 0;
+}
+
+.button
+{
+  margin: 10px;
+  height: 40px;
+  width: 107px;
+  background-color: #CC99FF;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.button:hover
+{
+  background-color: pink;
+}
+
+.button:active
+{
+  background-color: fuchsia;
+}
+
+
+.buttonplay
+{
+  margin: 10px;
+  margin-left: 90px;
+  height: 40px;
+  width: 107px;
+  background-color: #CC33FF;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.buttonplay:hover
+{
+  background-color: pink;
+}
+
+.buttonplay:active
+{
+  background-color: fuchsia;
+}
+h2
+{
+  margin-left:75px;
+  color: #CC99FF;
+}
